@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		01CD44F62162544E00988378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD44F52162544E00988378 /* AppDelegate.swift */; };
-		01CD44F82162544E00988378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD44F72162544E00988378 /* ViewController.swift */; };
+		01CD44F82162544E00988378 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD44F72162544E00988378 /* TodoListViewController.swift */; };
 		01CD44FB2162544E00988378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CD44F92162544E00988378 /* Main.storyboard */; };
 		01CD44FD2162545100988378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CD44FC2162545100988378 /* Assets.xcassets */; };
 		01CD45002162545100988378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CD44FE2162545100988378 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01CD44F22162544E00988378 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD44F22162544E00988378 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CD44F52162544E00988378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01CD44F72162544E00988378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01CD44F72162544E00988378 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		01CD44FA2162544E00988378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01CD44FC2162545100988378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01CD44FF2162545100988378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		01CD44F32162544E00988378 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01CD44F22162544E00988378 /* Todoey.app */,
+				01CD44F22162544E00988378 /* ToDoList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				01CD44F52162544E00988378 /* AppDelegate.swift */,
-				01CD44F72162544E00988378 /* ViewController.swift */,
+				01CD44F72162544E00988378 /* TodoListViewController.swift */,
 				01CD44F92162544E00988378 /* Main.storyboard */,
 				01CD44FC2162545100988378 /* Assets.xcassets */,
 				01CD44FE2162545100988378 /* LaunchScreen.storyboard */,
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01CD44F12162544E00988378 /* Todoey */ = {
+		01CD44F12162544E00988378 /* ToDoList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01CD45042162545100988378 /* Build configuration list for PBXNativeTarget "Todoey" */;
+			buildConfigurationList = 01CD45042162545100988378 /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
 				01CD44EE2162544E00988378 /* Sources */,
 				01CD44EF2162544E00988378 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Todoey;
+			name = ToDoList;
 			productName = Todoey;
-			productReference = 01CD44F22162544E00988378 /* Todoey.app */;
+			productReference = 01CD44F22162544E00988378 /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01CD44ED2162544E00988378 /* Build configuration list for PBXProject "Todoey" */;
+			buildConfigurationList = 01CD44ED2162544E00988378 /* Build configuration list for PBXProject "ToDoList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01CD44F12162544E00988378 /* Todoey */,
+				01CD44F12162544E00988378 /* ToDoList */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01CD44F82162544E00988378 /* ViewController.swift in Sources */,
+				01CD44F82162544E00988378 /* TodoListViewController.swift in Sources */,
 				01CD44F62162544E00988378 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01CD44ED2162544E00988378 /* Build configuration list for PBXProject "Todoey" */ = {
+		01CD44ED2162544E00988378 /* Build configuration list for PBXProject "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01CD45022162545100988378 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01CD45042162545100988378 /* Build configuration list for PBXNativeTarget "Todoey" */ = {
+		01CD45042162545100988378 /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01CD45052162545100988378 /* Debug */,
